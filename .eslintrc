@@ -1,0 +1,24 @@
+env:
+  es6: true
+  node: true
+  jest: true
+
+extends: airbnb-base
+rules:
+  semi: ["error", "never"]
+  new-cap: ["warn", { "newIsCap": true }]
+  curly: "off"
+  max-len: ["warn", { "code": 100, "tabWidth": 2 }]
+  arrow-parens: ["warn", "as-needed"]
+  no-confusing-arrow: "off"
+  global-require: "off"
+  no-await-in-loop: "off"
+  space-before-function-paren: ["warn", "always"]
+  no-underscore-dangle: "off"
+  nonblock-statement-body-position: "off"
+  object-curly-newline: "off"
+  implicit-arrow-linebreak: "off"
+  function-paren-newline: "off"
+  no-restricted-syntax: "off"
+  import/no-cycle: "off"
+  no-console: "off"
