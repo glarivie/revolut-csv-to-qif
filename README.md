@@ -9,6 +9,7 @@ You need to have `node.js` >= 10.5
 ```bash
 git@github.com:hqro/revolut-csv-to-qif.git
 cd revolut-csv-to-qif
+npm install --production
 node src/index.js $FILE
 ```
 
