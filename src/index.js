@@ -14,7 +14,7 @@ const data = convert(buffer)
 writeFileSync(
   resolve(
     process.cwd(),
-    `Revolut-Statement-${format(new Date(), 'DD-MM-YYY')}.dif`,
+    `Revolut-Statement-${format(new Date(), 'DD-MM-YYY')}.qif`,
   ),
   ['!Type:Bank'].concat(data).join(EOL),
   { encoding: ENCODING },

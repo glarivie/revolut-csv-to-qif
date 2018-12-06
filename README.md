@@ -1,4 +1,4 @@
-# Revolut Excel exports to DIF
+# Revolut Excel exports to QIF
 
 Convert Revolut Excel (CSV) exports to QIF file
 
@@ -13,10 +13,10 @@ npm install --production
 node src/index.js $FILE
 ```
 
-Replace `$FILE` with your *Revolut* export. You can now find a `*.dif` file on your current directory
+Replace `$FILE` with your *Revolut* export. You can now find a `*.qif` file on your current directory
 
 ```
-more Revolut-Statement-*.dif
+more Revolut-Statement-*.qif
 
 !Type:Bank
 D06/12/2018
