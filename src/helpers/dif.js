@@ -16,7 +16,7 @@ const convert = buffer => {
         .split(';')
         .reduce((acc, curr, index) => ({
           ...acc,
-          [columns[index]]: curr,
+          [columns[index].trim()]: curr.trim(),
         }), {}),
     )
     .map(operation => {
