@@ -22,7 +22,7 @@ const convert = buffer => {
     .map(operation => {
       const date = handleDate(operation)
       const transaction = handleTransaction(operation)
-      const label = get(operation, 'Reference', '')
+      const label = get(operation, 'Reference', get(operation, 'Description', ''))
 
       return [
         `D${date}`,

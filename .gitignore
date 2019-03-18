@@ -62,3 +62,4 @@ typings/
 
 # dif output
 Revolut-Statement-*
+*.csv
